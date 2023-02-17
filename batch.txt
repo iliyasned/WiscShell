@@ -1,0 +1,7 @@
+path /bin ./
+gcc /u/c/s/cs537-1/tests/p2a/tests/ret_arg_0.c -o ret_arg_0
+
+if ret_arg_0 10 == 10 then cd /u/c/s/cs537-1/tests/p2a/tests/p2a-test fi
+ls
+
+rm -rf ret_arg_0
